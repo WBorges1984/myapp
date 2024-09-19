@@ -1,9 +1,10 @@
 import './App.css';
+import Dashboard from './Dashboard';
 
 function App() {
   return (
     <div className="App">
-      <h1>App React JS</h1>
+      <Dashboard />
     </div>
   );
 }
