@@ -1,13 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import data from './data'
 import './Dashboard.css'
 
-const Item = ({id, title, description, image, price})=>{
+const Item = ({title, description, image, price})=>{
+    
     return(
         <div className="containerItem">
+            {price < 500 ?
+                <div className='saldao'>
+                    <h4>Saldão</h4>
+                </div> : null
+            }
             <div className="conteudo">
                 <div className="imagem">
-                    <img src={image}/>
+                    <img src={image} alt={title}/>
                 </div>
                 <div className="titlePrice">
                     <h3>{title}</h3>

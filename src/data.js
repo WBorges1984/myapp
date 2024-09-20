@@ -14,56 +14,56 @@ const data = [
         title: 'Apple Watch Series 4 GPS',
         description:'Redesigned from scratch and completely revised.',
         image: appleWatch,
-        price:'750'
+        price: 750
     },
     {
         id: '02',
         title: 'JBL Speaker',
         description:'Redesigned from scratch and completely revised.',
         image: jblSpeaker,
-        price:'199'
+        price: 199
     },
     {
         id: '03',
         title: 'Apple iPhone X 128GB',
         description:'Redesigned from scratch and completely revised.',
         image: iphoneX,
-        price:'899'
+        price: 899
     },
     {
         id: '04',
         title: 'Beats Headphones',
         description:'Redesigned from scratch and completely revised.',
         image: beatsHeadphones,
-        price:'459'
+        price: 459
     },
     {
         id: '05',
         title: 'Apple Macbook Pro',
         description:'Redesigned from scratch and completely revised.',
         image: macbookPro,
-        price:'999'
+        price: 999
     },
     {
         id: '06',
         title: 'Apple iPad Pro 64GB',
         description:'Redesigned from scratch and completely revised.',
         image:ipadPro,
-        price:'899'
+        price: 899
     },
     {
         id: '07',
         title: 'JBuds Air Wireless',
         description:'Redesigned from scratch and completely revised.',
         image:jlabAudioWireless,
-        price:'399'
+        price: 399
     },
     {
         id: '08',
         title: 'Apple Homepod',
         description:'Redesigned from scratch and completely revised.',
         image:homepod,
-        price:'199'
+        price: 199
     },
 ]
 

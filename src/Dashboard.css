@@ -42,6 +42,15 @@ header{
     padding: 10px;
 }
 
+.saldao{
+    position: absolute;
+    padding: 5px;
+    border-radius: 10px 0 10px 0;
+    background-color: #f38200;
+    color: #fff;
+
+}
+
 .titlePrice{
     display: flex;
     justify-content: space-between;
